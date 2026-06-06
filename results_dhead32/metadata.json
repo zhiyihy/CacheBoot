@@ -1,0 +1,28 @@
+{
+  "python": "3.12.13",
+  "platform": "macOS-15.7.3-arm64-arm-64bit",
+  "seed": 20260606,
+  "params": {
+    "poly_modulus_degree": 8192,
+    "coeff_mod_bit_sizes": [
+      60,
+      40,
+      40,
+      60
+    ],
+    "global_scale_bits": 40
+  },
+  "trials": 2,
+  "context_lengths": [
+    4,
+    8,
+    16
+  ],
+  "block_sizes": [
+    1,
+    2,
+    4
+  ],
+  "d_head": 32,
+  "elapsed_s": 1.0752567499876022
+}
